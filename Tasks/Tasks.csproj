@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Constructor.TaskConstructor</StartupObject>
+    <StartupObject>Tasks.Polymorphism.TaskPolymorphism</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constructor\TaskConstructor.cs" />
+    <Compile Include="Polymorphism\TaskPolymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,7 +60,6 @@
     <Folder Include="Encapsulation\" />
     <Folder Include="ExceptionHandling\" />
     <Folder Include="Inheritance\" />
-    <Folder Include="Polymorphism\" />
     <Folder Include="Singleton\" />
     <Folder Include="String&amp;StringBuilder\" />
   </ItemGroup>
