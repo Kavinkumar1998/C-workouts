@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Inheritance.TaskInhertance3</StartupObject>
+    <StartupObject>Tasks.Abstraction.TaskAbstraction</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\TaskAbstraction.cs" />
     <Compile Include="Constructor\TaskConstructor.cs" />
     <Compile Include="Inheritance\TaskInheritance.cs" />
     <Compile Include="Inheritance\TaskInheritance2.cs" />
@@ -58,7 +59,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstraction\" />
     <Folder Include="ArrayMatrix\" />
     <Folder Include="Encapsulation\" />
     <Folder Include="ExceptionHandling\" />
