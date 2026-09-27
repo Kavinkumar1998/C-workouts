@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Abstraction.TaskAbstraction</StartupObject>
+    <StartupObject>Tasks.String_StringBuilder.TaskStringbuilder3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,22 +48,27 @@
   <ItemGroup>
     <Compile Include="Abstraction\TaskAbstraction.cs" />
     <Compile Include="Constructor\TaskConstructor.cs" />
+    <Compile Include="Encapsulation\TaskEncapsulation.cs" />
+    <Compile Include="Encapsulation\TaskEncapsulation1.cs" />
+    <Compile Include="ExceptionHandling\TaskExceptionHandling.cs" />
+    <Compile Include="ExceptionHandling\TaskExceptionHandling1.cs" />
     <Compile Include="Inheritance\TaskInheritance.cs" />
     <Compile Include="Inheritance\TaskInheritance2.cs" />
     <Compile Include="Inheritance\TaskInhertance3.cs" />
     <Compile Include="Polymorphism\TaskPolymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\TaskSingleton.cs" />
+    <Compile Include="String&amp;StringBuilder\TaskStringBuilder.cs" />
+    <Compile Include="String&amp;StringBuilder\TaskStringbuilder1.cs" />
+    <Compile Include="String&amp;StringBuilder\TaskStringbuilder2.cs" />
+    <Compile Include="String&amp;StringBuilder\TaskStringbuilder3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ArrayMatrix\" />
-    <Folder Include="Encapsulation\" />
-    <Folder Include="ExceptionHandling\" />
-    <Folder Include="Singleton\" />
-    <Folder Include="String&amp;StringBuilder\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
