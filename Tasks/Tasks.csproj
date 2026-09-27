@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Inheritance.TaskInheritance2</StartupObject>
+    <StartupObject>Tasks.Inheritance.TaskInhertance3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,7 @@
     <Compile Include="Constructor\TaskConstructor.cs" />
     <Compile Include="Inheritance\TaskInheritance.cs" />
     <Compile Include="Inheritance\TaskInheritance2.cs" />
+    <Compile Include="Inheritance\TaskInhertance3.cs" />
     <Compile Include="Polymorphism\TaskPolymorphism.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
