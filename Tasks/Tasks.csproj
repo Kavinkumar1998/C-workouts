@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Tasks.Async_and_Await.TaskAsyncAwait</StartupObject>
+    <StartupObject>Tasks.Genric_Collections.TaskGenricCollection</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
