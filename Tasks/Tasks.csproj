@@ -51,6 +51,7 @@
     <Compile Include="Async and Await\TaskAsyncAwait.cs" />
     <Compile Include="Constructor\TaskConstructor.cs" />
     <Compile Include="Delegates\TaskDelegates.cs" />
+    <Compile Include="Delegates\TaskDelegates1.cs" />
     <Compile Include="Encapsulation\TaskEncapsulation.cs" />
     <Compile Include="Encapsulation\TaskEncapsulation1.cs" />
     <Compile Include="ExceptionHandling\TaskExceptionHandling.cs" />
